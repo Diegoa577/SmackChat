@@ -105,7 +105,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
     fun updateWithChannel() {
         mainChannelName.text = "#${selectedChannel?.name}"
         if (selectedChannel != null) {
